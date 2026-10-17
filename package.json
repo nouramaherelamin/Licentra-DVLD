@@ -1,0 +1,30 @@
+{
+  "name": "licentra-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Licentra - Driving & Vehicle License Management System Monorepo",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"blue,green\" \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend start",
+    "build:frontend": "npm --prefix frontend run build",
+    "preview:frontend": "npm --prefix frontend run preview",
+    "test:backend": "npm --prefix backend test",
+    "test": "npm run test:backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "licentra",
+    "driving-license",
+    "monorepo",
+    "express",
+    "react",
+    "vite"
+  ],
+  "author": "Licentra Development Team",
+  "license": "ISC"
+}

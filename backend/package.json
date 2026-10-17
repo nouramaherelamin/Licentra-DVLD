@@ -1,0 +1,28 @@
+{
+  "name": "licentra-backend",
+  "version": "1.0.0",
+  "description": "Licentra Backend API Server - Express.js",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node test-api.js",
+    "test:api": "node test-api.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "keywords": [
+    "licentra",
+    "express",
+    "api"
+  ],
+  "author": "Licentra Development Team",
+  "license": "ISC"
+}
