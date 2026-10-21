@@ -262,3 +262,10 @@ Phase 2 security implementation follows this priority sequence:
 - [**Authoritative API Contracts (docs/api-contracts.md)**](docs/api-contracts.md) — Single Source of Truth for all 32 REST endpoints, request/response JSON envelopes, and status codes.
 - [**Git & Monorepo Merge Workflow (docs/merge-workflow.md)**](docs/merge-workflow.md) — Branch naming standards, PR requirements, conflict resolution, and folder ownership policies.
 - [**Database Architecture & Roadmap (database/README.md)**](database/README.md) — PostgreSQL schema definitions, ER diagrams, and Supabase integration roadmap.
+
+## Repository Structure
+
+- `frontend/` — Frontend application.
+- `backend/` — Backend API and server-side logic.
+- `database/` — Database scripts and schema.
+- `docs/` — Project documentation and architecture references.
