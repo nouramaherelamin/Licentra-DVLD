@@ -269,3 +269,14 @@ Phase 2 security implementation follows this priority sequence:
 - `backend/` — Backend API and server-side logic.
 - `database/` — Database scripts and schema.
 - `docs/` — Project documentation and architecture references.
+
+## Prerequisites
+
+Before running Licentra, make sure you have:
+
+- Node.js and npm installed.
+- Git installed to clone the repository.
+- A code editor such as Visual Studio Code.
+- The environment variables configured according to the project documentation.
+
+Refer to the project documentation for setup instructions.
